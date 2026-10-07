@@ -1,5 +1,5 @@
 import { ArrowRight, Star } from "lucide-react";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="bg-[#F8F3E8]">
@@ -27,10 +27,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex items-center gap-4">
-            <button className="flex items-center gap-2 rounded-full bg-[#D9A441] px-7 py-3.5 font-medium text-white transition hover:bg-[#bd8d2e]">
+            <Link 
+             href="/products"
+            className="flex items-center gap-2 rounded-full bg-[#D9A441] px-7 py-3.5 font-medium text-white transition hover:bg-[#bd8d2e]">
               Shop Now
               <ArrowRight size={18} />
-            </button>
+            </Link>
 
             <button className="rounded-full border border-[#D9A441] px-7 py-3.5 font-medium text-[#29251f] transition hover:bg-white">
               Explore
@@ -42,13 +44,13 @@ export default function Hero() {
         <div className="relative">
           <div className="overflow-hidden rounded-[2rem]">
             <img
-              src="/images/hero.jpg"
+              src="/images/images8.jpeg"
               alt="Modern furniture"
               className="h-[500px] w-full object-cover"
             />
           </div>
 
-          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-white px-6 py-4 shadow-lg">
+          <div className="absolute -bottom-5 -left-5 rounded-2xl bg-[#FFE0B2] px-6 py-4 shadow-lg">
             <p className="text-2xl font-bold text-[#29251f]">500+</p>
             <p className="text-sm text-[#6b6255]">
               Premium Products

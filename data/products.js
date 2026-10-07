@@ -6,7 +6,7 @@ const products = [
     category: "Living Room",
     price: "249",
     rating: "4.8",
-    image: "/images/chair.jpg",
+    image: "/images/images.jpeg",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const products = [
     category: "Living Room",
     price: "599",
     rating: "4.9",
-    image: "/images/sofa.jpg",
+    image: "/images/images2.jpeg",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const products = [
     category: "Dining Room",
     price: "449",
     rating: "4.7",
-    image: "/images/table.jpg",
+    image: "/images/images5.jpeg",
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const products = [
     category: "Lighting",
     price: "129",
     rating: "4.6",
-    image: "/images/lamp.jpg",
+    image: "/images/images6.jpeg",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const products = [
     category: "Living Room",
     price: "299",
     rating: "4.8",
-    image: "/images/chair.jpg",
+    image: "/images/images3.jpeg",
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const products = [
     category: "Bedroom",
     price: "799",
     rating: "4.9",
-    image: "/images/bed.jpg",
+    image: "/images/images4.jpeg",
   },
   {
     id: 7,
@@ -54,7 +54,7 @@ const products = [
     category: "Bedroom",
     price: "389",
     rating: "4.7",
-    image: "/images/cabinet.jpg",
+    image: "/images/unnamed.jpg",
   },
   {
     id: 8,
@@ -62,7 +62,7 @@ const products = [
     category: "Lighting",
     price: "99",
     rating: "4.5",
-    image: "/images/lamp.jpg",
+    image: "/images/images7.jpeg",
   },
 ];
 

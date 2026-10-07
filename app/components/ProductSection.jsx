@@ -1,6 +1,6 @@
 
 import ProductCard from "./ProductCard";
-
+import Link from "next/link";
 export default function ProductSection() {
   const products = [
     {
@@ -9,7 +9,7 @@ export default function ProductSection() {
       category: "Living Room",
       price: "249",
       rating: "4.8",
-      image: "/images/chair.jpg",
+      image: "/images/images.jpeg",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export default function ProductSection() {
       category: "Living Room",
       price: "599",
       rating: "4.9",
-      image: "/images/sofa.jpg",
+      image: "/images/images2.jpeg",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export default function ProductSection() {
       category: "Dining Room",
       price: "449",
       rating: "4.7",
-      image: "/images/table.jpg",
+      image: "/images/images5.jpeg",
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ export default function ProductSection() {
       category: "Lighting",
       price: "129",
       rating: "4.6",
-      image: "/images/lamp.jpg",
+      image: "/images/images6.jpeg",
     },
   ];
 
@@ -53,12 +53,13 @@ export default function ProductSection() {
             </h2>
           </div>
 
-          <button
+          <Link 
+            href="/products"
             type="button"
             className="hidden rounded-full border border-[#D9A441] px-6 py-3 font-medium text-[#29251f] transition hover:bg-[#D9A441] hover:text-white sm:block"
           >
             View All
-          </button>
+          </Link>
         </div>
 
         {/* Products */}

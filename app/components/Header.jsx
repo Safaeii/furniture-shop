@@ -34,7 +34,7 @@ export default function Header() {
     <header className="relative overflow-hidden border-b border-[#D9A441]/20 bg-gradient-to-r from-white via-[#FFF8E8] to-white shadow-sm">
 
       {/* CENTER GLOW */}
-      <div className="pointer-events-none absolute left-1/2 top-1/2 h-40 w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D9A441]/10 blur-3xl" />
+      <div className="pointer-events-none absolute left-1/2 top-1/2 h-40 w-125 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D9A441]/10 blur-3xl" />
 
       {/* MAIN HEADER */}
       <div className="relative z-10 mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
